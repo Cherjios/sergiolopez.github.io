@@ -1,0 +1,27 @@
+
+header {
+  background:#55d6aa;
+}
+
+header::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: center;
+}
+
+nav ul {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+ /*float:left; */
+ display: inline-block;
+ margin-left: 100px;
+ padding: 25px;
+}
