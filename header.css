@@ -2,11 +2,6 @@
   width: 80%;
   margin:0;
 }
-
-header {
-  background:#55d6aa;
-}
-
 header::after {
   content:'';
   display: table;
