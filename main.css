@@ -4,27 +4,23 @@ body {
   text-align: center;
 }
 
-.container {
-  width: 80%;
-  margin:0;
-}
 
 .bigname {
-  color: white;
-  font-size: 20px;
+  color: wheat;
+  font-size: 100px;
+  font-weight: 900;
   text-align: center;
   margin: auto;
-  
+  padding-top: 250px;
 }
-
-p {
-  font-size: 10px;
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
+.subtitle{
+  color:white;
+  font-size: 20px; 
+  font-weight: 500;
 }
 
 .construction{
   font-size: 100px;
   text-align: center;
-  color: white;
+  color: whitesmoke;
 }
