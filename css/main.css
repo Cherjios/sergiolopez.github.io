@@ -2,8 +2,6 @@ body {
   margin:0;
   text-align: center;
 }
-
-
 .bigname {
   color: white;
   font-size: 80px;
@@ -28,4 +26,10 @@ body {
   color:white;
   font-size: 30px; 
   font-weight: 500;
+}
+.logos {
+  padding-top: 100px;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 25px;
 }
