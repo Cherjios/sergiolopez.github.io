@@ -28,8 +28,8 @@ nav li {
 }
 
 .link {
-  border: 1px solid aquamarine;
+  border: 1px solid rgb(57, 110, 92);
   outline-style: solid;
-  outline-color: aqua;
+  outline-color: rgb(57, 110, 92);
   outline-width: medium;
 }
