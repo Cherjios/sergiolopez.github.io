@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 .bigname {
-  color: white;
+  color: yellow;
   font-size: 80px;
   font-weight: 900;
   text-align: center;
@@ -11,7 +11,7 @@ body {
   padding-top: 300px;
 }
 .subtitle{
-  color:white;
+  color:blanchedalmond;
   font-size: 30px; 
   font-weight: 500;
   font-style: oblique;
