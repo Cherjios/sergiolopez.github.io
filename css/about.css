@@ -1,10 +1,10 @@
 body{
     margin: center;
-    background-color: rgb(144, 150, 117);
+    background-color: rgb(76, 135, 190);
 }
 .boxinfo{
  width: 1200px;
-  border: 15px solid green;
+  border: 15px solid rgba(26, 29, 28, 0.705);
   padding: 50px;
   margin: 50px;
   text-align: left;
