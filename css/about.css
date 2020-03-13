@@ -1,3 +1,15 @@
 body{
     margin: center;
+    background-color: rgb(144, 150, 117);
+}
+.boxinfo{
+ width: 1200px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 50px;
+  text-align: left;
+}
+p {
+color: khaki;
+font-size: 30px; 
 }

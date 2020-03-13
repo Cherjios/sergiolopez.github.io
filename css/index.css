@@ -2,10 +2,7 @@ body {
   margin:20px;
   background-color: rgb(42, 151, 187);
 }
-header {
-  background-color: rgb(114, 204, 240);
-  padding: 10px;
-}
+
 .bigname {
   color: rgb(39, 38, 37);
   font-size: 80px;
@@ -31,9 +28,4 @@ header {
   margin-bottom: 50px;
   border: solid black 5px;
   padding:2px;
-}
-footer {
-  background-color:rgb(129, 193, 212);
-  text-align: center;
-  color: white;
 }

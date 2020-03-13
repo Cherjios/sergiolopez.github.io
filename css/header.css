@@ -3,11 +3,14 @@
   margin:0;
 }
 
-
 header::after {
   content:'';
   display: table;
   clear: both;
+}
+header {
+  background-color: rgb(114, 204, 240);
+  padding: 10px;
 }
 
 nav {
@@ -32,6 +35,6 @@ nav li {
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid rgb(16, 161, 187);
   outline-style: solid;
-  outline-color: rgb(47, 71, 78);
+  outline-color: black;
   outline-width: medium;
 }
