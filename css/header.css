@@ -11,6 +11,7 @@ header::after {
 header {
   background-color: rgb(114, 204, 240);
   padding: 10px;
+  border-radius: 25px;
 }
 
 nav {
@@ -29,6 +30,7 @@ nav li {
  margin-left: 100px;
  padding: 10px;
  font-style: Georgia;
+ 
 }
 
 .link {
