@@ -2,6 +2,19 @@ body {
   margin:20px;
   background-color: rgb(42, 151, 187);
 }
+div.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+div.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin:center;
+}
+
 .bigname {
   color: rgb(39, 38, 37);
   font-size: 80px;
@@ -28,3 +41,4 @@ body {
   border: solid black 5px;
   padding:2px;
 }
+
