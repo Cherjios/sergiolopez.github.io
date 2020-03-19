@@ -2,6 +2,13 @@ h1{
 text-align: center;
 }
 
-.listp {
-    padding:200xp;
+.projects {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 100px;
 }
+
+h2{
+    text-decoration: underline;
+    }
