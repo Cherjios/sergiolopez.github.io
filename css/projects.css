@@ -13,7 +13,6 @@ h2{
     text-decoration: underline;
     font-size: 2em;
 }
- 
 img.hbnb{
     width: 400px;
     height: auto;
@@ -31,7 +30,6 @@ img.printf{
 div.column {
     float: left;
     width: 50%;
-
   }
   
 /* Clear floats after the columns */
@@ -39,9 +37,8 @@ div.row:after {
     content: "";
     display: table;
     clear: both;
-    
-    
   }
+  
 .lip{
     font-size: 1.3em;
 }
