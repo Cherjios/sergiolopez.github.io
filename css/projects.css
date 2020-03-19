@@ -1,17 +1,19 @@
 h1{
 text-align: center;
+font-size: 3em;
 }
 
 .projects {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-right: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   padding-left: 100px;
 }
-
 h2{
     text-decoration: underline;
+    font-size: 2em;
 }
+ 
 img.hbnb{
     width: 400px;
     height: auto;
@@ -22,6 +24,23 @@ img.bash{
 }
 
 img.printf{
-    width: 500px;
+    width: 300px;
     height: auto;
+}
+
+div.column {
+    float: left;
+    width: 50%;
+  }
+  
+/* Clear floats after the columns */
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin:center;
+    
+  }
+.lip{
+    font-size: 1.3em;
 }
