@@ -11,4 +11,17 @@ text-align: center;
 
 h2{
     text-decoration: underline;
-    }
+}
+img.hbnb{
+    width: 400px;
+    height: auto;
+}
+img.bash{
+    width: 400px;
+    height: auto;
+}
+
+img.printf{
+    width: 500px;
+    height: auto;
+}
