@@ -3,16 +3,17 @@ body{
     background-color: rgb(108, 120, 131);
 }
 div.column {
-    float: left;
-    width: 50%;
-  }
+  float: left;
+  width: 50%;
+}
   
 /* Clear floats after the columns */
 div.row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;  
   }
+
 #mypic2{
   display: inline-block;
   padding: 100px;
