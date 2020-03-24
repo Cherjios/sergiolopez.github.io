@@ -1,0 +1,20 @@
+body{
+    margin: center;
+    background-color: rgb(19, 106, 177);
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.informa{
+  margin: 50px;
+  padding: 20px;
+}
+
+p{
+  color:whitesmoke;
+  font-size: 1.5em;
+}
+  
