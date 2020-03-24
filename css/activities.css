@@ -13,23 +13,34 @@ div.row:after {
     display: table;
     clear: both;
   }
-  .rotateimg180 {
-    padding: 30px;
-    -webkit-transform:rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
-  h1{
-    text-align: center;
-    font-size: 3em;
-    color: rgb(204, 187, 37);
-  }
-  p{
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-    color: whitesmoke;
+#mypic2{
+  display: inline-block;
+  padding: 100px;
+  width:800px;
+  height:600px; 
+  float:left; 
+  margin-right: 10px; 
+  margin-bottom: 50px;
+  border: solid black 5px;
+  padding:2px;
+}
+.rotateimg180 {
+  padding: 30px;
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+h1{
+  text-align: center;
+  font-size: 3em;
+  color: rgb(204, 187, 37);
+}
+p{
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: whitesmoke;
   }
   
