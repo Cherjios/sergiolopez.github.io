@@ -1,15 +1,15 @@
 body{
-    margin: center;
-    background-color: rgb(76, 135, 190);
+  margin: center;
+  background-color: rgb(76, 135, 190);
 }
 .boxinfo{
- width: 1200px;
+  width: 1200px;
   border: 15px solid rgba(228, 236, 234, 0.705);
   padding: 50px;
   margin: 50px;
   text-align: left;
 }
-p {
-color: khaki;
-font-size: 30px; 
+p { 
+  color: khaki;
+  font-size: 30px; 
 }
