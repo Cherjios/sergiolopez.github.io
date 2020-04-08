@@ -19,8 +19,17 @@
 <meta charset="UTF-8">
 <title>About Sergio Lopez</title>
 </head>
-
 <body>
+    <script   src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $('body').click(function(){
+            $('body').css('background', '#' + bgColor());
+        });
+        function bgColor()
+        {
+        return Math.floor(Math.random()* 16777216).toString(16);
+        }
+    </script>
     <header>
         <div class = "container">
             <nav>
@@ -43,6 +52,7 @@
         <p>I'll appreciate your help if you have any advice or something to point out, do not hesitate to get in contact with me giving a click to the black envelope thanks.</p>
     </div>
     <p class = "thanks"> Thank you for visiting my site! </p>
+    <p class = "thanks"> Click here! </p>
     <br>
     <footer>
         <a href="https://github.com/Cherjios"><img class ="logos" src="../images/Octocat.png" alt="github" width="60" height="50"></a>
