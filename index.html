@@ -11,7 +11,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'UA-162950444-1');
     </script>
     
@@ -19,6 +18,16 @@
 <title>Sergio Lopez</title>
 </head>
 <body>
+    <script   src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $('body').click(function(){
+            $('body').css('background', '#' + bgColor());
+        });
+        function bgColor()
+        {
+        return Math.floor(Math.random()* 16777216).toString(16);
+        }
+  </script>
     <header>
         <div class = "container">
         <nav>
@@ -44,6 +53,7 @@
             <h1 class="headline">Hi! I am Sergio Lopez</h1>
             <p class = "subtitle"><b>Software engineer</b></p>
             <p class = "thanks"> Thank you for visiting my site! </p>
+            <p class = "thanks"> Click here! </p>
         </div>
     </div>
 </section>

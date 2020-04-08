@@ -1,6 +1,8 @@
 body {
-  margin:20px;
-  background-color: rgb(13, 143, 187);
+  margin:0;
+  padding: 0;
+  height: 100vh;
+  background: rgb(13, 143, 187);
 }
 div.column {
   float: left;
