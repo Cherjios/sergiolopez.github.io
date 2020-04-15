@@ -4,7 +4,7 @@ This project is about my personal website, still a  early development.
 This Website will be on constant change, as far I am learning new techniques I'll be adding to this project. 
 
 ## You will find the next content:
-- About myself.
+- [About myself.](https://cherjios.github.io/sergiolopez.github.io/)
 - Projects I have developed. 
 - Activities I like to do.
 - Contact information.
