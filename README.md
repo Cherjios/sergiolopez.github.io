@@ -11,7 +11,7 @@ This Webiste will be on constant change, as far I am learning new techniques I'l
 - Resume on pdf
 
 ## HTML pages
-All html pages are in the [sergiolopez.github.io/html/](https://github.com/Cherjios/sergiolopez.github.io/tree/master/html). These are ejs files which call partials in ejs to include html in other pages.
+All html pages are in the [sergiolopez.github.io/html/](https://github.com/Cherjios/sergiolopez.github.io/tree/master/html) directory. These are ejs files which call partials in ejs to include html in other pages.
 
 ## Static Files (CSS, Javascript)
 
