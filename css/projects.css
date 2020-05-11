@@ -41,3 +41,13 @@ div.row:after {
 .lip{
     font-size: 1.3em;
 }
+.title{
+  color: rgb(204, 129, 37);
+  text-shadow: rgb(112, 86, 54) 10px 10px 10px;
+  letter-spacing: .5em;
+  word-spacing:.5em;
+  text-decoration:none;
+}
+.nolinkline {
+  text-decoration:none;
+}

@@ -9,7 +9,17 @@ body{
   margin: 50px;
   text-align: left;
 }
+h1 {
+text-shadow: black 1px 0px 10px;
+text-transform:capitalize;
+letter-spacing: .3em;
+word-spacing: 1em;
+text-align: center;
+}
+
 p { 
+  text-align: justify-all;
   color: khaki;
   font-size: 30px; 
+  text-indent: 1em; 
 }

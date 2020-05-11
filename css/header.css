@@ -10,6 +10,7 @@ header::after {
 }
 header {
   background-color: rgb(114, 204, 240);
+  text-shadow: black 1px 1px 3px;
   padding: 10px;
   border-radius: 25px;
 }
