@@ -25,6 +25,7 @@ div.row:after {
   border: solid black 5px;
   padding:2px;
 }
+/*
 .rotateimg180 {
   padding: 30px;
   -webkit-transform:rotate(180deg);
@@ -33,6 +34,7 @@ div.row:after {
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+*/
 h1{
   text-align: center;
   font-size: 3em;
