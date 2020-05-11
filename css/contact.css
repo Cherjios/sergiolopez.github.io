@@ -3,6 +3,9 @@ body{
     background-color: rgb(19, 106, 177);
 }
 h1{
+  text-shadow: blanchedalmond 2px 4px 8px;
+  letter-spacing: .5em;
+  word-spacing: .5em;
   font-size: 3em;
   text-align: center;
   padding-bottom: 20px;
@@ -17,4 +20,7 @@ p{
   color:whitesmoke;
   font-size: 1.5em;
 }
-  
+
+.dir{
+  text-align: right;
+}
