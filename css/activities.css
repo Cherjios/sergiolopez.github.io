@@ -22,7 +22,7 @@ div.row:after {
   float:left; 
   margin-right: 10px; 
   margin-bottom: 50px;
-  border: solid black 5px;
+  border: solid black 15px;
   padding:2px;
 }
 /*
