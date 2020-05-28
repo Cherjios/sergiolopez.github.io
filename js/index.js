@@ -5,6 +5,8 @@ $('body').click(function(){
     $('h1').css('color', '#' + bgColor());
     $('p').css('color', '#' + bgColor());
     $('li').css('color', '#' + bgColor());
+    var ncolor = '#' + bgColor();
+    document.getElementById("imgbox").style.borderColor = ncolor;
 
 });
 function bgColor()
