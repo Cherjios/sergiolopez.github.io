@@ -4,8 +4,9 @@ $('body').click(function(){
     $('footer').css('background', '#' + bgColor());
     $('h1').css('color', '#' + bgColor());
     $('p').css('color', '#' + bgColor());
-    $('li').css('color', '#' + bgColor());
-
+    $('li').css('color', '#' + bgColor()); 
+    var ncolor = '#' + bgColor();
+    document.getElementById("boxinfo02").style.borderColor = ncolor;
 });
 function bgColor()
 {

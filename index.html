@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
@@ -19,21 +18,7 @@
 </head>
 <body>
     <script   src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script type="text/javascript">
-        $('body').click(function(){
-            $('body').css('background', '#' + bgColor());
-            $('header').css('background-color', '#' + bgColor());
-            $('footer').css('background', '#' + bgColor());
-            $('h1').css('color', '#' + bgColor());
-            $('p').css('color', '#' + bgColor());
-            $('li').css('color', '#' + bgColor());
-
-        });
-        function bgColor()
-        {
-        return Math.floor(Math.random()* 16777216).toString(16);
-        }
-  </script>
+    <script type="text/javascript" src="js/index.js"></script>
     <header>
         <div class = "container">
         <nav>

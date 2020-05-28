@@ -29,20 +29,8 @@
 -->
 <body>
     <script   src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script type="text/javascript">
-        $('body').click(function(){
-            $('body').css('background', '#' + bgColor());
-            $('header').css('background-color', '#' + bgColor());
-            $('footer').css('background', '#' + bgColor());
-            $('h1').css('color', '#' + bgColor());
-            $('p').css('color', '#' + bgColor());
-            $('li').css('color', '#' + bgColor());
-            
-        });
-        function bgColor()
-        {
-        return Math.floor(Math.random()* 16777216).toString(16);
-        }
+    <script type="text/javascript" src="../js/about.js">
+       
     </script>
     <header>
         <div class = "container">
@@ -59,7 +47,7 @@
         </nav>
         </div>
     </header>
-    <div class="boxinfo">
+    <div class="boxinfo" id="boxinfo02">
         <h1>About myself</h1>
         <p>Hi! My Name is Sergio, a software engineer base in the bay area. </p>
         <p>I decided to get into the tech word because I love to spend time with computers and one day, I decided to learn more about how to create software and applications on internet.</p>  
